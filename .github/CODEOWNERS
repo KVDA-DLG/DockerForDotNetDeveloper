@@ -1,0 +1,15 @@
+# CODEOWNERS file for DockerForDotNetDeveloper repository
+# This file defines who owns different parts of the codebase
+# For more information, see: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repo
+# This will be requested for review when someone opens a pull request
+* @KVDA-DLG
+
+# Documentation files
+*.md @KVDA-DLG
+
+# Docker-related configurations
+Dockerfile* @KVDA-DLG
+docker-compose*.yml @KVDA-DLG
+.dockerignore @KVDA-DLG
